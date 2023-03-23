@@ -1,0 +1,23 @@
+@keyframes spin {
+  from { transform: none; }
+  to { transform: rotate(1turn); }
+}
+
+.hello-world {
+  position: fixed;
+  inset: 0;
+  display: grid;
+  place-items: center;
+
+  svg {
+    width: 30%;
+    height: auto;
+    animation: spin 100s linear infinite;
+    fill: currentcolor;
+
+    @if $env == 'test' {
+      fill: none;
+      stroke: currentcolor;
+    }
+  }
+}
