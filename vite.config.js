@@ -35,15 +35,8 @@ export default defineConfig(({ mode }) => ({
     preprocessorOptions: {
       scss: {
         additionalData: `
-          @import '/style/reset';
-          @import '/style/helpers';
-          @import '/style/devices';
-
-          @import '/style/variables';
-          @import '/style/animations';
-          @import '/style/fonts';
-
-          @import '/style/base';
+          @use '/style/_helpers' as *;
+          @use '/style/_devices' as *;
           $env: ${mode};
         `
       }

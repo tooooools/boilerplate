@@ -1,5 +1,7 @@
 /* global __VERSION__ */
 
+import '/index.scss'
+
 import { render } from '/utils/jsx'
 import HelloWorld from '/components/HelloWorld'
 
