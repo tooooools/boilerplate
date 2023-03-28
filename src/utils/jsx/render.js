@@ -7,7 +7,7 @@ const SvgTagNames = new Set([
   'defs'
 ])
 
-export default function render (vnode, parent = document.querySelector('main'), context) {
+export default function render (vnode, parent = document.body, context) {
   // render
   let i = 0
   const rendered = rawRender(vnode, SvgTagNames.has(parent.tagName))
