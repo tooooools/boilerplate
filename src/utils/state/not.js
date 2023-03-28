@@ -1,2 +1,2 @@
-import { derived } from 'utils/state'
+import { derived } from '.'
 export default signal => derived(signal, value => !value)
