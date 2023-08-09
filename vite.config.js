@@ -1,3 +1,5 @@
+// TODO import @tooooools/ui by default
+
 import path from 'path'
 import { defineConfig, loadEnv } from 'vite'
 
@@ -49,7 +51,7 @@ export default defineConfig(({ mode }) => {
     },
 
     esbuild: {
-      jsxInject: "import h from '/utils/jsx/h'",
+      jsxInject: "import { h } from '@tooooools/ui'",
       jsxFactory: 'h'
     }
   }

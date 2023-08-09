@@ -60,7 +60,7 @@
       {
         "unspecified": "ignore",
         "emptyLineBeforeUnspecified": "threshold",
-        "emptyLineMinimumPropertyThreshold": 5
+        "emptyLineMinimumPropertyThreshold": 6
       }
     ]
   }

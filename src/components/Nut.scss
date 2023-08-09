@@ -3,16 +3,18 @@
   to { transform: rotate(1turn); }
 }
 
-.hello-world {
+.nut {
   position: fixed;
   inset: 0;
   display: grid;
   place-items: center;
+  pointer-events: none;
 
   svg {
     width: 30%;
     height: auto;
-    animation: spin 100s linear infinite;
+    animation: spin linear infinite;
+    animation-duration: calc(2s * 1 / var(--speed));
     fill: currentcolor;
 
     @if $env == 'test' {
