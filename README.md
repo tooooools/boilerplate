@@ -1,4 +1,4 @@
-# Boilerplate [<img src="https://github.com/tooooools.png?size=100" size="100" align="right">](http://github.com/tooooools/)
+# tooooools/boilerplate [<img src="https://github.com/tooooools.png?size=100" size="100" align="right">](http://github.com/tooooools/)
 > Vite boilerplate with JSX, SCSS, `eslint`, `stylelint` and a test environment.
 
 <br>
@@ -20,16 +20,16 @@ $ yarn install
 
 ```bash
 # Development
-$ npm run start
-$ npm run test
+$ yarn start
+$ yarn test
 
 # Staging
-$ npm run build
-$ npm run preview
-$ npm run deploy:staging
+$ yarn build
+$ yarn preview
+$ yarn deploy:staging
 
 # Production
-$ npm run version
+$ yarn version
 ```
 
 ## Browser support
