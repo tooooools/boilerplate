@@ -225,12 +225,11 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@tooooools/ui@^0.1.0":
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/@tooooools/ui/-/ui-0.1.0.tgz#1c4328185d03db84e875de01a177d29bdc1ffb56"
-  integrity sha512-M6rKFSgHgB4sIcPJtggNx4Mro+aKjSm2NezvBVHiealgkS8ZTOEYpzwlDlcPJsvXu0mReNmnqHc7DBluNz2XVw==
+"@tooooools/ui@^1.5.3":
+  version "1.5.3"
+  resolved "https://registry.yarnpkg.com/@tooooools/ui/-/ui-1.5.3.tgz#efd5be1f0ae332197a9ae3102768058f35f71db7"
+  integrity sha512-eDWKS7Wx85fTcifjjbTkjenjlEItEmUODBqvU14g4ppZKoJqHl7BkmitOH6UwD5LP6f1QL6+Pk6gDJOopoYDQg==
   dependencies:
-    classnames "^2.3.2"
     debounce "^1.2.1"
 
 "@types/json5@^0.0.29":
@@ -475,11 +474,6 @@ chalk@^4.0.0:
     readdirp "~3.6.0"
   optionalDependencies:
     fsevents "~2.3.2"
-
-classnames@^2.3.2:
-  version "2.3.2"
-  resolved "https://registry.yarnpkg.com/classnames/-/classnames-2.3.2.tgz#351d813bf0137fcc6a76a16b88208d2560a0d924"
-  integrity sha512-CSbhY4cFEJRe6/GQzIk5qXZ4Jeg5pcsP7b5peFSDpffpe1cqjASH/n9UTjBwOp6XpMSTwQ8Za2K5V02ueA7Tmw==
 
 color-convert@^1.9.0:
   version "1.9.3"
