@@ -225,10 +225,10 @@
     "@nodelib/fs.scandir" "2.1.5"
     fastq "^1.6.0"
 
-"@tooooools/ui@^1.5.3":
-  version "1.5.3"
-  resolved "https://registry.yarnpkg.com/@tooooools/ui/-/ui-1.5.3.tgz#efd5be1f0ae332197a9ae3102768058f35f71db7"
-  integrity sha512-eDWKS7Wx85fTcifjjbTkjenjlEItEmUODBqvU14g4ppZKoJqHl7BkmitOH6UwD5LP6f1QL6+Pk6gDJOopoYDQg==
+"@tooooools/ui@^1.6.0":
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/@tooooools/ui/-/ui-1.6.0.tgz#1af4b8cb48cf72fdd5b75e474e438b7572bb6ad4"
+  integrity sha512-aebt36Zx6GOP2Trmw6UFIxgAb+nahhZiYztfB+QDfXFByEmrIanYpsC6ExbrqGbm+EDt+Sw1uxqGnC7rYDzjWQ==
   dependencies:
     debounce "^1.2.1"
 

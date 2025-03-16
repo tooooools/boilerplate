@@ -34,6 +34,6 @@
     "vite": "^4.2.1"
   },
   "dependencies": {
-    "@tooooools/ui": "^1.5.3"
+    "@tooooools/ui": "^1.6.0"
   }
 }
