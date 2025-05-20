@@ -1,5 +1,3 @@
-// TODO import @tooooools/ui by default
-
 import path from 'path'
 import { defineConfig, loadEnv } from 'vite'
 
@@ -34,7 +32,8 @@ export default defineConfig(({ mode }) => {
 
     server: {
       port: 8080,
-      host: true
+      host: true,
+      allowedHosts: ['.local']
     },
 
     css: {
